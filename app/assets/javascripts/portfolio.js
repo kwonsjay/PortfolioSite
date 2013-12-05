@@ -4,7 +4,18 @@ window.Portfolio = {
   Views: {},
   Routers: {},
   initialize: function() {
-    console.log('Hello from Backbone!');
+    this._installSidebar($("#sidebar"));
+    this._installSocialbar($("#social"));
+    new Portfolio.Routers.PortRouter($("#content"));
+    Backbone.history.start();
+  },
+  _installSidebar: function($sidebar) {
+    var sidebarView = new Portfolio.Views.SidebarView();
+    $sidebar.html(sidebarView.render().$el);
+  },
+  _installSocialbar: function($socialbar) {
+    var socialbarView = new Portfolio.Views.SocialbarView();
+    $socialbar.html(socialbarView.render().$el);
   }
 };
 
