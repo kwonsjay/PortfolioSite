@@ -96,6 +96,8 @@ html,body {
 
 .icons li {
   margin: 5% 0 5% 0;
+  font-size: 2em;
+  color: #333332;
 }
 
 #content {
