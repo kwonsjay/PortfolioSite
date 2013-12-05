@@ -11,3 +11,151 @@
  *= require_self
  *= require_tree .
  */
+
+html,body {
+	font-family: 'Open Sans', 'Avenir Next', 'Helvetica Neue','Helvetica','Arial', sans-serif;
+	background: white;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+  color: #333332;
+}
+
+#wrapper  {
+  height: 100%;
+  position: relative;
+}
+
+#sidebar {
+  display: inline-block;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  min-width: 80px;
+  box-sizing: border-box;
+}
+
+#main {
+  display: inline-block;
+  height: 100%;
+  width: 70%;
+  margin-left: 15%;
+  box-sizing: border-box;}
+
+#social {
+  display: inline-block;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  box-sizing: border-box;
+}
+
+.imgcontainer {
+  width: 100%;
+  height: 48px;
+/*  background: #f2a669;*/
+  background: #57ad68;
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.imgcontainer img {
+  width: 64px;
+  height: 48px;
+  vertical-align: middle;
+}
+
+.nav {
+  width: 85%;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+/*  padding-right: 40px;*/
+}
+
+.icocontainer {
+  width: 30%;
+  padding: 10px 5px 10px 5px;
+  border: 1px solid #e2e2e2;
+  border-right: 0px;
+  float: right;
+  margin-top: 60px;
+}
+
+.icons {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.icons li {
+  margin: 5px 0px 5px 0px;
+}
+
+#content {
+  width: 90%;
+  margin: auto;
+}
+
+#content h1 {
+  margin-top: 60px;
+  font-size: 2.2em;
+  color: #333332;
+/*  font-weight: 400;*/
+}
+
+.copyright {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.copyright span:hover {
+  color: #57ad68;
+}
+
+.infoblock {
+  position: relative;
+  padding-bottom: 30px;
+  width: 100%;
+  border-top: 1px solid #e1e1e1;
+}
+
+.infobox {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 60%;
+/*  max-width: 500px;*/
+  min-width: 300px;
+}
+
+.infopic {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+/*  width: 35%;*/
+}
+
+.left {
+  padding: 30px 50px 30px 0px;
+}
+
+.right {
+  padding: 30px 0px 30px 50px;
+  right: 0;
+}
+
+.infopic img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+h2 {
+  color: #57ad68;
+  font-weight: 400;
+}
