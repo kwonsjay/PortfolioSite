@@ -78,6 +78,23 @@ html,body {
 
 .nav li {
   padding: 5% 0 5% 0;
+  transition: color 0.3s ease;
+}
+
+.nav li:after {
+  content: '';
+  display: block;
+  border-bottom: 1px solid #57ad68;
+  width: 0;
+  transition: 0.3s ease;
+}
+
+.nav li:hover:after {
+  width: 100%;
+}
+
+.nav li:hover {
+  color: #57ad68;
 }
 
 .icocontainer {
@@ -100,6 +117,14 @@ html,body {
   color: #333332;
 }
 
+i {
+  transition: color 0.3s ease;
+}
+
+i:hover {
+  color: #57ad68;
+}
+
 #content {
   width: 90%;
   margin: auto;
@@ -109,7 +134,7 @@ html,body {
 #content h1 {
   font-size: 2.2em;
   color: #333332;
-/*  font-weight: 400;*/
+  font-weight: 400;
 }
 
 .copyright {
@@ -165,3 +190,13 @@ h2 {
 #header {
   border-bottom: 2px solid #57ad68;
 }
+
+/*#headpic {
+  height: 40%;
+  background: url('/images/bokeh.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}*/
