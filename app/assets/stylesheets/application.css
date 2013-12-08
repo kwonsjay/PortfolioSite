@@ -43,7 +43,8 @@ html,body {
   height: 100%;
   width: 70%;
   margin-left: 15%;
-  box-sizing: border-box;}
+  box-sizing: border-box;
+}
 
 #social {
   display: inline-block;
@@ -159,6 +160,7 @@ i:hover {
   box-sizing: border-box;
   vertical-align: middle;
   width: 60%;
+  font-weight: 100;
 }
 
 .infopic {
@@ -182,6 +184,10 @@ i:hover {
   border-radius: 50%;
 }
 
+.nofill {
+  border: 1px solid #57ad68;
+}
+
 h2 {
   color: #57ad68;
   font-weight: 400;
@@ -189,6 +195,48 @@ h2 {
 
 #header {
   border-bottom: 2px solid #57ad68;
+}
+
+.highlight {
+  color: #479156;
+}
+
+.astrip {
+  background: #57ad68;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  margin: auto;
+}
+
+.background {
+  background: #57ad68;
+  overflow: hidden;
+}
+
+.binfo {
+  padding: 3% 0 3% 0;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33.33%;
+  float: left;
+}
+
+.binfo i {
+  color: white;
+  font-size: 3em;
+}
+
+.binfotxt {
+  color: white;
+  font-size: 0.8em;
+  padding: 0 10% 0 10%;
 }
 
 /*#headpic {
