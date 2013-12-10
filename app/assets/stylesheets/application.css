@@ -44,6 +44,7 @@ html,body {
   width: 70%;
   margin-left: 15%;
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 #social {
@@ -54,6 +55,11 @@ html,body {
   box-sizing: border-box;
   padding-top: 5%;
   min-width: 120px;
+}
+
+#social li a {
+  text-decoration: none;
+  color: #333332;
 }
 
 .imgcontainer {
