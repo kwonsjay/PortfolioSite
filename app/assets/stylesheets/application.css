@@ -19,7 +19,14 @@ html,body {
 	padding: 0;
 	height: 100%;
 	overflow-x: hidden;
-  color: #333332;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 a {
+  color: #57ad68;
 }
 
 #wrapper  {
@@ -58,7 +65,6 @@ html,body {
 }
 
 #social li a {
-  text-decoration: none;
   color: #333332;
 }
 
