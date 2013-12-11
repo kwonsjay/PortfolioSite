@@ -22,5 +22,8 @@ module Portfolio
     
     # Add the fonts path
     config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+    
+    # Precompile
+    config.assets.initialize_on_precompile = false
   end
 end
