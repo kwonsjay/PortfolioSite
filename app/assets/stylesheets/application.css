@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+p a {
+  color: #57ad68;
+}
+
 h2 a {
   color: #57ad68;
 }
@@ -101,7 +105,16 @@ h2 a {
   width: 0;
   transition: 0.3s ease;
 }
+/*
+.nav a {
+  color: #333332;
+  transition: color 0.3s ease;
+}
 
+.nav a:hover {
+  color: #57ad68;
+}
+*/
 .nav li:hover:after {
   width: 100%;
 }
@@ -249,6 +262,49 @@ h2 {
   color: white;
   font-size: 0.8em;
   padding: 0 10% 0 10%;
+}
+
+.tag {
+  font-size: 0.6em;
+  padding: 1% 2% 1% 2%;
+  border-radius: 10px;
+  color: white;
+}
+
+.js {
+  background: #0082c6;
+}
+
+.jquery {
+  background: #1169ae;
+}
+
+.ruby {
+  background: #b40f00;
+}
+
+.backbone {
+  background: #3d31d7;
+}
+
+.python {
+  background: #57ad68;
+}
+
+.matlab {
+  background: #f2a669;
+}
+
+.html5 {
+  background: #f1652a;
+}
+
+.css3 {
+  background: #3b9adc;
+}
+
+.arduino {
+  background: #00979c;
 }
 
 /*#headpic {
